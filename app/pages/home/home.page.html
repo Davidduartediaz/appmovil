@@ -1,0 +1,105 @@
+<ion-header>
+  
+  <ion-toolbar color="success">
+
+    <ion-buttons slot="start">
+      <ion-button (click)="mostrarMenu()">
+        <ion-icon slot="icon-only" name="menu-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+    <ion-title><h1>Travesia Tour</h1></ion-title>
+    
+    <ion-buttons slot="end">
+      <ion-avatar>
+         <ion-img src="/assets/avatarHombre.jpg"></ion-img>
+      </ion-avatar>
+    </ion-buttons>
+    
+  </ion-toolbar>
+  
+</ion-header>
+
+<ion-content color="warning">
+  <ion-img src="/assets/Travesia.jpg"></ion-img>
+
+  
+
+
+
+  <!-- <ion-list>
+    <ion-item *ngFor="let c of componentes"
+              [routerLink]="c.redirecTo"
+              detail="true">
+       <ion-icon [name]="c.icon" slot="start" color="success"></ion-icon>
+       {{c.name}}
+    </ion-item>
+  </ion-list> -->
+
+
+
+
+
+  
+  
+
+  
+
+  <ion-button color="success" expand="full" routerLink="/aventura" class="btnFull">
+    <ion-icon name="earth-outline" slot="start">
+    </ion-icon>
+    Aventura
+  </ion-button>
+  
+
+  <ion-button color="success" class="btnHome" routerLink="/bicicleta">
+    <ion-icon name="bicycle"  slot="start">
+    </ion-icon>
+    Bicicleta
+  </ion-button>
+
+
+  <ion-button color="success" class="btnHome" routerLink="/mascota">
+    <ion-icon name="paw-outline" slot="start" >
+    </ion-icon>
+    Mascotas
+  </ion-button>
+
+
+  <ion-button color="success" class="btnHome">
+    <ion-icon name="footsteps-outline" slot="start">
+    </ion-icon>
+    Caminata
+  </ion-button>
+
+
+  <ion-button color="success" class="btnHome">
+    <ion-icon name="medkit-outline" slot="start">
+    </ion-icon>
+    Trekking
+  </ion-button>
+
+  
+  <ion-button color="success" class="btnHome">
+    <ion-icon name="barbell-outline" slot="start">
+    </ion-icon>
+    Deportes
+  </ion-button>
+
+
+  <ion-button color="success" class="btnHome">
+    <ion-icon name="calculator-outline" slot="start">
+    </ion-icon>
+    Utilidades
+  </ion-button>
+
+
+  <ion-button expand="full" color="success" class="btnFull">
+    <ion-icon name="business-outline" slot="start">
+    </ion-icon>
+    Galeria
+  </ion-button>
+  
+
+  
+</ion-content>
